@@ -1,0 +1,23 @@
+{
+  "name": "node_gsecrets",
+  "version": "1.0.0",
+  "description": "Example application for connecting a Node.js server to Google Secrets Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JensOmfjord/node_gsecrets.git"
+  },
+  "author": "Jens Omfjord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JensOmfjord/node_gsecrets/issues"
+  },
+  "homepage": "https://github.com/JensOmfjord/node_gsecrets#readme",
+  "dependencies": {
+    "@google-cloud/secret-manager": "^4.2.2",
+    "express": "^4.18.2"
+  }
+}
